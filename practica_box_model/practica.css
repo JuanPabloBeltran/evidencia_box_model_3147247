@@ -1,0 +1,84 @@
+
+/*Selector de clase
+    -Se determina con punto(.)
+    -Todas las etiquetas con esa clase
+     tendran el mismo estilo
+*/
+
+/*Modelo de caja
+Contenido:Texto, imagenes, videos, sgv
+          en una caja tiene que haber contenido
+          o debe tener ancho y alto
+Padding(relleno): capa entre el contenido y el borde
+*/
+
+.box1{
+    background-color: skyblue;
+    height: 200px ;
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 45px;
+    border-style: ridge;
+    border-color: gray;
+    border-width: 15px;
+    border-radius: 15px;
+}
+
+.box2{
+    background-color: forestgreen;
+    /*Propiedades width(Ancho) y height(Altura)
+      Aplica solo a la capa del contenido
+    */
+    width: 50%;
+    height: 100px;
+    padding: 30px 40px 10px 20px;
+    border-style: inset;
+    border-bottom: dashed;
+    border-right: dashed;
+    border-color: greenyellow;
+    border-width: 20px;
+}
+
+/*Estilo de identificador
+se denota con #(numeral)
+solo aplica a un elemento en
+todo el documento */
+
+#caja3{
+    background-color: springgreen;
+    height: 250px;
+    width: 25%;
+    padding: 40px 20px;
+}
+
+
+#caja4{
+    background-color: orangered;
+    width: 75%;
+    height: 100px;
+    padding: 30px 40px 10px 20px;
+    border-style: inset;
+    border-bottom: dashed;
+    border-right: ridge;
+    border-color: purple black blue green;
+    border-width: 20px;
+}
+
+#caja5{
+    background-color: lightblue;
+    height: 100;
+    padding: 5px;
+    border-top-color: aquamarine;
+    border-top-style: outset;
+    border-top-width: 20px;
+    border-left-color: aquamarine;
+    border-left-style: outset;
+    border-left-width: 20px;
+    border-bottom-color: blue;
+    border-bottom-style: double;
+    border-bottom-width: 20px;
+    border-right-color: aqua;
+    border-right-style: groove;
+    border-right-width: 20px;
+}
