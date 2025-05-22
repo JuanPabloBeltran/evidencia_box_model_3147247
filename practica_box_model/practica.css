@@ -23,6 +23,8 @@ Padding(relleno): capa entre el contenido y el borde
     border-color: gray;
     border-width: 15px;
     border-radius: 15px;
+    margin: 100px;
+
 }
 
 .box2{
