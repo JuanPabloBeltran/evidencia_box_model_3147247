@@ -1,0 +1,46 @@
+/*selector universal
+se va a aplicar a TODAS las etiquetas*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card{
+    border-color: blue;
+    border-style: ridge;
+    width: 350px;
+    height: 500px;
+    background-color: goldenrod;
+    /* auto distribuir la dimension al tamaño
+    libre disponible del dispositivo*/
+    margin: 40px auto 40px auto;
+    border-radius: 20px;
+}
+
+.card > img {
+      border-color: blue;
+      border-style: ridge;
+      display:block ;
+      width: 250px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 20px;
+      margin-top: 65px;
+      margin: 50px;
+}
+.card   .contenedor{
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 300px;
+}
+
+.contenedor > h1 {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
